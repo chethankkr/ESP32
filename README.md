@@ -45,42 +45,7 @@ OpenStreetMap
 HTTP REST APIs
 FreeRTOS
 
-**Project Architecture**
-                 Web Browser
-          (HTML + CSS + JavaScript)
-                    │
-        ┌───────────┴────────────┐
-        │                        │
-        │ HTTP Requests          │
-        │                        │
-    ESP32-CAM              ESP32 Controller
-        │                        │
-        │                        │
- Camera Streaming         GPS Module
- Image Capture            PIR Sensor
- Flash LED                Metal Detector
- Motor Control            Servo Control
-                           Laser Module
-                           Speed Control
-
-
-**Project Structure**
-IoT_Based_Smart_Multi-Application_Surveillance_Robot/
-│
-├── ESP32_Cam/
-│   ├── ESP32_Cam.ino
-│   └── camera_pins.h
-│
-├── ESP32_Code/
-│   └── ESP32_Code.ino
-│
-├── frontend/
-│   ├── webpage_html.html
-│   └── ESP.js
-│
-└── README.md
-
-REST API Endpoints
+**REST API Endpoints**
 ESP32-CAM
 Endpoint	Description
 /stream	Live video streaming
