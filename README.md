@@ -69,7 +69,7 @@ Endpoint	Description
 **Installation**
 
 Clone Repository
-git clone https://github.com/YOUR_USERNAME/IoT_Based_Smart_Multi-Application_Surveillance_Robot.git
+**git clone https://github.com/chethankkr/ESP32.git**
 
 Open Arduino IDE
 Open the following sketches:
