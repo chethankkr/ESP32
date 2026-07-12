@@ -1,4 +1,5 @@
 **IoT-Based Smart Multi-Application Surveillance Robot**
+
 Overview
 
 The IoT-Based Smart Multi-Application Surveillance Robot is a Wi-Fi controlled robotic surveillance system developed using ESP32, ESP32-CAM, and a web-based control dashboard. The robot provides real-time video streaming, GPS tracking, motion detection, metal detection, camera pan-tilt control, speed control, and image capture through an interactive browser interface.
@@ -6,6 +7,7 @@ The IoT-Based Smart Multi-Application Surveillance Robot is a Wi-Fi controlled r
 The project demonstrates embedded systems, IoT communication, web technologies, and real-time hardware integration.
 
 **Features**
+
 📹 Live video streaming using ESP32-CAM
 📸 Capture and download images remotely
 💡 Remote flash LED control
@@ -22,7 +24,9 @@ The project demonstrates embedded systems, IoT communication, web technologies, 
 📡 Wi-Fi based HTTP communication between browser and ESP32 devices
 
 **Technologies Used**
+
 **Hardware**
+
 ESP32 Development Board
 ESP32-CAM (AI Thinker)
 OV2640 Camera Module
@@ -35,6 +39,7 @@ DC Motors
 Motor Driver Module
 
 **Software**
+
 Arduino IDE
 Embedded C++
 HTML5
@@ -46,6 +51,7 @@ HTTP REST APIs
 FreeRTOS
 
 **REST API Endpoints**
+
 ESP32-CAM
 Endpoint	Description
 /stream	Live video streaming
@@ -61,6 +67,7 @@ Endpoint	Description
 /speed	Motor speed control
 
 **Installation**
+
 Clone Repository
 git clone https://github.com/YOUR_USERNAME/IoT_Based_Smart_Multi-Application_Surveillance_Robot.git
 
@@ -91,10 +98,12 @@ const controlIP = "192.168.x.x";
 const motionIP = "192.168.x.x";
 
 **Run the Dashboard**
+
 Open:
 frontend/webpage_html.html
 
 **Future Improvements**
+
 Mobile application
 Cloud database integration
 AI object detection
