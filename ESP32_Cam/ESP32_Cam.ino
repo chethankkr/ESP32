@@ -33,8 +33,8 @@
 #define FLASH_GPIO_NUM 4
 
 // Replace with your Wi-Fi credentials
-const char* ssid = "Redmi Note 13 5G";
-const char* password = "87654321";
+const char* ssid = "SSID";
+const char* password = "Password";
 
 WebServer server(80);
 
