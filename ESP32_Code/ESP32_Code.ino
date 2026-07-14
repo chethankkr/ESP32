@@ -7,8 +7,8 @@
 #define EN_B_PIN 4   // Example pin connected to ENB
 
 // Wi-Fi credentials
-const char* ssid = "Redmi Note 13 5G";
-const char* password = "87654321";
+const char* ssid = "SSID";
+const char* password = "Password";
 
 // Servo pins
 const int servoPin1 = 26; // For Left/Right (Pan)
